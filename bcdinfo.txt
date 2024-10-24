@@ -1,0 +1,30 @@
+
+Windows Boot Manager
+--------------------
+identificatore          {bootmgr}
+device                  partition=W:
+path                    \bootmgr
+description             Windows Boot Manager
+locale                  it-IT
+default                 {default}
+displayorder            {default}
+timeout                 30
+
+Caricatore di avvio di Windows
+-------------------
+identificatore          {default}
+device                  partition=W:
+path                    \Windows\system32\winload.exe
+description             Windows 10 Education
+locale                  it-IT
+osdevice                partition=W:
+systemroot              \Windows
+bootmenupolicy          Standard
+
+Tester memoria di Windows
+---------------------
+identificatore          {memdiag}
+device                  partition=W:
+path                    \boot\memtest.exe
+description             Windows Memory Diagnostic
+locale                  it-IT

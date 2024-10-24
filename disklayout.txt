@@ -1,0 +1,93 @@
+
+Microsoft DiskPart versione 10.0.19041.964
+
+Copyright (C) Microsoft Corporation.
+Nel computer MININT-EL6HO8Q
+
+  N. disco  Stato          Dimensioni     Disponibile    Din  GPT
+  --------  -------------  -------------  -------------  ---  ---
+  Disco 0    Online            232 Gbytes    1024 Kbytes         
+  Disco 1    Online           7450 Mbytes         0 byte         
+
+Il disco attualmente selezionato ä il disco 0.
+
+WDC WDS250G1B0A-00H9H0
+ID disco: 00D2D1A5
+Tipo: SATA
+Stato: Online
+Percorso: 0
+Destinazione: 0
+ID LUN: 0
+Percorso: PCIROOT(0)#PCI(1F02)#ATA(C00T00L00)
+Stato corrente di sola lettura: No
+Sola lettura: No
+Disco di avvio: No
+Disco file di paging: No
+Disco file ibernazione: No
+Disco file dettagli arresto anomalo: No
+Disco cluster: No
+
+  Volume ###  Let. Etichetta    Fs     Tipo        Dim.     Stato      Info
+  ---------   ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 1     W                NTFS   Partizione   232 Gb  Integro            
+
+  Volume ###  Let. Etichetta    Fs     Tipo        Dim.     Stato      Info
+  ---------   ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E                       DVD-ROM         0 b  Nessun su          
+  Volume 1     W                NTFS   Partizione   232 Gb  Integro            
+  Volume 2     V   CPBA_X64FRE  NTFS   Rimovibile  7449 Mb  Integro            
+
+Il volume attualmente selezionato ä il volume 1.
+
+  N. disco  Stato          Dimensioni     Disponibile    Din  GPT
+  --------  -------------  -------------  -------------  ---  ---
+* Disco 0    Online            232 Gbytes    1024 Kbytes         
+
+Sola lettura           : No
+Nascosti               : No
+Nessuna lettera di unitÖ predefinita: No
+Copia shadow           : No
+Offline                : No
+BitLocker crittografato    : No
+Installabile            : Sç
+
+CapacitÖ volume        :  232 Gbytes
+Spazio disponibile volume:   54 Gbytes
+
+Il disco attualmente selezionato ä il disco 0.
+
+WDC WDS250G1B0A-00H9H0
+ID disco: 00D2D1A5
+Tipo: SATA
+Stato: Online
+Percorso: 0
+Destinazione: 0
+ID LUN: 0
+Percorso: PCIROOT(0)#PCI(1F02)#ATA(C00T00L00)
+Stato corrente di sola lettura: No
+Sola lettura: No
+Disco di avvio: No
+Disco file di paging: No
+Disco file ibernazione: No
+Disco file dettagli arresto anomalo: No
+Disco cluster: No
+
+  Volume ###  Let. Etichetta    Fs     Tipo        Dim.     Stato      Info
+  ---------   ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 1     W                NTFS   Partizione   232 Gb  Integro            
+
+  Partizione ###   Tipo              Dim.     Offset
+  ---------------  ----------------  -------  -------
+  Partizione 1    Primario           232 Gb    32 Kb
+
+La partizione attualmente selezionata ä la partizione 1.
+
+Partizione 1
+Tipo  : 07
+Nascosta: No
+Attiva: Sç
+Offset in byte: 32768
+
+  Volume ###  Let. Etichetta    Fs     Tipo        Dim.     Stato      Info
+  ---------   ---  -----------  -----  ----------  -------  ---------  --------
+* Volume 1     W                NTFS   Partizione   232 Gb  Integro            
